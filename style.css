@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    height: 85px;
+    display: flex;
+    justify-content: space-evenly;
+     margin-top: 70px ;
+}
+.logo{
+    background-image: url("nurpur-logo.webp");
+    height: 48px;
+    width: 100px ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.nav-a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#0A548B;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#0A548B;
+    padding-bottom: 25px;
+}
+.nav-text{
+    height:60px ;
+    width: 70px;
+    background-color: white;
+    text-align: center;
+}
+#border :hover{
+    background-color: white;
+    color: rgb(123, 186, 123);
+    border: 2px solid rgb(123, 186, 123);
+}
+video{
+    height: 740px;
+    width: 1260px;
+    margin-bottom: 50px;
+}
+ /* .about-nurpur{
+    display: inline;
+    background-image: url("milk-wave-pattern.webp");
+    background-size: cover;
+} */
+.logo-story{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(44, 44, 109);
+    font-size: 22px;
+}
+.story-text{
+    padding-top: 26px;
+}
+.back{
+    height: 80px;
+    position: absolute;
+}
+.text-image{
+    display: flex;
+}
+.text1{
+    height: 300px;
+    color: rgb(92,92,92);
+    padding-left: 180px;
+    padding-top: 150px;
+    padding-right: 750px;
+}
+.para1{
+    color: #5C5C5C;
+    font-size: 22px;
+}
+.img1{
+    height: 200px;
+    background-size: cover;
+}
+.img-products{
+    height: 350px;
+    background-size: cover;
+    padding-left: 600px;
+    padding-bottom: 620px;
+}
+.grass{
+    padding-top: 180px;
+    height: 110px;
+    width: 100%;
+    padding-bottom: 120px;
+}
+.pro-three{
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 150px;
+}
+.original{
+    background-image: url("nurpur-original-milk\ \(1\).webp");
+    background-size: cover;
+    height: 300px;
+    width: 25%;
+}
+.flavour{
+    background-image: url("nurpur-flavoured-milk.webp");
+    background-size: cover;
+    height: 300px;
+    width: 25%;
+}
+.cream{
+    background-image: url("nurpur-dairy-cream.webp");
+    background-size: cover;
+    height: 300px;
+    width: 25%;
+}
+h4{
+    color: #0A548B;
+    text-align: center;
+    padding-top: 400px;
+}
+.para-prod{
+    font-size: 16px;
+    color: #5C5C5C;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: block;
+    margin-top: 20px;
+}
+.original:hover{
+    border: 0 solid #eee;
+    box-sizing: border-box;
+}
+.cream:hover{
+    border: 0 solid #eee;
+    box-sizing: border-box;
+}
+.flavour:hover{
+    border: 0 solid #eee;
+    box-sizing: border-box;
+}
+.pro-two{
+    display: flex;
+    justify-content: center;
+    padding-top: 350px;
+}
+.butter{
+    background-image: url("nurpur-butter.webp");
+    background-size: cover;
+    height: 300px;
+    width: 25%;
+    margin-right: 25px;
+}
+.cheese{
+    background-image: url("nurpur-cheese.webp");
+    background-size: cover;
+    height: 300px;
+    width: 25%;
+    margin-left: 25px;
+}
+.EAT{
+    padding-top: 375px;
+    padding-bottom: 120px; 
+}
+.burgers{
+    display: flex;
+    justify-content: space-around;
+    height:1px;
+}
+#food2{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.burg-text{
+    display: flex;
+    justify-content: space-around;
+    height:170px;
+    margin-bottom: 700x;
+}
+.cordon{
+    margin-bottom: 100px;
+   
+}
+.chick{
+    margin-bottom: 100px;
+}
+.smash{
+    margin-bottom: 100px;
+}
+.food-heading{
+    text-align: center;
+}
+.same-burg{
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    color: #5C5C5C;
+}
+.recipe{
+    height: 40px;
+    width: 160px;
+    text-align: center;
+    align-items: center;
+    color: #009993;
+    background-color: #ffffff;
+    border: 2px solid #009993 ;
+    border-radius: 9999px;
+    margin-left: 130px;
+    margin-top: 45px;
+}
+.media{
+    padding-top: 560px;
+    padding-bottom: 160px;
+    
+}
+.media-img{
+    display: flex;
+    height: 260px;
+    justify-content: space-evenly;
+}
+.img1{
+    width: 258px;
+    height: 200px;
+    object-fit: cover;
+   
+}
+.img2{
+    width: 258px;
+    height: 210px;
+    object-fit: cover;
+
+}
+.img3{
+    width: 258px;
+    height: 210px;
+    object-fit: cover;
+
+}
+.end-img{
+    width: 258px;
+    height: 210px;
+    border-radius: 13%;
+}
+.ENDDVC{
+    color: #0A548B;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 11px;
+    font-weight: 700;
+}
+.footpanel{
+    padding-top: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 365px;
+}
+.footlogo1{
+    height: 170px;
+    width: 110px;
+    background-image: url("footer-logo1.webp");
+    background-size: cover;
+}
+.footlogo2{
+    height: 220px;
+    width: 110px;
+}
+.nurpur-foot{
+    height: 54px ;
+    width: 110px ;
+}
+.dostea-logo{
+    padding-top: 3.4rem;
+    height: 48px ;
+    width: 110px;
+}
+.foot-info{
+    height: 220px;
+    width: 465px;
+
+}
+.nav-foot{
+    display: flex;
+    justify-content: space-evenly;
+    height: 26px;
+    width: 465px;
+    color: #636363;
+}
+.mail{
+    height: 24px;
+    width: 232px;
+    display: flex;
+    color: #68a4a2;
+    padding-top: 50px;
+}
+.fauji-mail{
+    padding-left: 25px;
+    color: #636363;
+}
+.contact0{
+    height: 24px;
+    width: 232px;
+    padding-top: 28px;
+    display: flex;
+    color: #68a4a2;
+}
+.phone{
+   padding-left: 25px ;
+   color: #636363;
+}
+.off-phone{
+    height: 24px;
+    width: 232px;
+    padding-top: 22px;
+    display: flex;
+    color: #68a4a2;
+}
+.phone2{
+    padding-left: 25px ;
+   color: #636363;
+}
+.adreeees{
+    height: 24px;
+    width: 332px;
+    padding-top: 28px;
+    display: flex;
+    font-size: small;
+    color: #5C5C5C;
+}
+#social{
+    color: #009993;
+    height: 24px;
+    width: 24px;
+    
+}
+.handles{
+    display: flex;
+    width: 230px;
+    height: 24px;
+    justify-content: space-evenly;
+    margin-left: 30px;
+  
+}
